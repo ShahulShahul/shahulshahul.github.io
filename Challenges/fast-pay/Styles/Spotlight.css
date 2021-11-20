@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'gorditamedium';
+    src: url('../Fonts/gordita_medium-webfont.woff2') format('woff2'),
+         url('../Fonts/gordita_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gorditaregular';
+    src: url('../Fonts/gordita_regular-webfont.woff2') format('woff2'),
+         url('../Fonts/gordita_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.spotlight {
+    margin: 2rem 3rem;
+    display: flex;
+    flex-direction: row;
+    background-color: violet;
+}
+
+.spotlight .left {
+    background-color: #F8F8FA;
+    width: 50%;
+}
+.spotlight .left .wrapper{
+    margin-left: 4rem;
+    padding-top: 7rem;
+}
+.spotlight .left .wrapper p{
+    font-family: 'gorditamedium';
+    color: #888398;
+    font-size: 17px;
+}
+
+.spotlight .left .wrapper h1{
+    font-size: 50px;
+    font-family: 'gorditamedium';
+    margin-top: .7rem;
+    margin-bottom: .7rem;
+    font-weight: bold;
+    color: #000000;
+}
+.spotlight .left .wrapper .bottom-text{
+    padding-bottom: 1.5rem;
+}
+.spotlight .left .wrapper .get-start{
+    font-size: 16px;
+    font-family: 'gorditamedium';
+    padding: .7rem 1.7rem;
+    border-radius: 10px;
+    background-image: linear-gradient(-45deg,#9D5BFF ,#db6435 ,#E45F83);
+    color: #FFFFFF;
+}
+
+.spotlight .right img{
+    width: 100%;
+    height: 100%;
+}
+
+.spotlight .right{
+    width: 50%;
+}

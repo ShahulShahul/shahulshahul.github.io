@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'gorditamedium';
+    src: url('../Fonts/gordita_medium-webfont.woff2') format('woff2'),
+         url('../Fonts/gordita_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gorditaregular';
+    src: url('../Fonts/gordita_regular-webfont.woff2') format('woff2'),
+         url('../Fonts/gordita_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.about {
+    margin: 2rem 3rem;
+}
+
+
+.about .top {
+    text-align: center;
+    margin-top: 10rem;
+}
+.about .top h3 {
+    font-size: 35px;
+    font-family: 'gorditaregular';
+    margin-bottom: 0rem;
+}
+.about .top p {
+    font-family: 'gorditamedium';
+    font-size: 15px;
+    color: #888398;
+}
+
+
+.about .bottom ul{
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.about .bottom ul li img{
+    width: 20rem;
+}
+.about .bottom ul li:first-child img{
+    margin-top: 1rem;
+}
+.about .bottom ul li:last-child {
+    margin-left: -5rem;
+    width: 22rem;
+}
+.about .bottom ul li:nth-child(2){
+    margin-left: -5rem;
+}
+
+.about .bottom .head{
+    font-family: 'gorditaregular';
+    margin-left: 4rem;
+}
+.about .bottom .head h4{
+    color: #000000;
+    font-size: 25px;
+}
+.about .bottom .head p{
+    font-family: 'gorditamedium';
+    font-size: 15px;
+    color: #888398;
+    margin-top: -1rem;
+}
+.about .bottom ul li:nth-child(2) .head{
+    margin-top: -3.3rem;
+}
+.about .bottom ul li:last-child .head{
+    margin-top: 2.9rem;
+}
+
+.about .bottom .path-img {
+    position: absolute;
+    width: 55rem;
+    top: 71rem;   
+    left: 14rem;
+    z-index: -20;
+}

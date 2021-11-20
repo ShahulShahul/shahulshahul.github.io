@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'gorditamedium';
+    src: url('../Fonts/gordita_medium-webfont.woff2') format('woff2'),
+         url('../Fonts/gordita_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gorditaregular';
+    src: url('../Fonts/gordita_regular-webfont.woff2') format('woff2'),
+         url('../Fonts/gordita_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.contact {
+    margin: 2rem 3rem;
+    text-align: center;
+}
+
+.contact h3{
+    font-family: 'gorditaregular';
+    font-size: 35px;
+    color: #000000;
+}
+.contact p{
+    font-family: 'gorditamedium';
+    font-size: 15px;
+    color: #888398;
+    margin-top: -2rem;
+}
+input[type="email"] {
+    width: 30rem;
+    border-radius: 12px;
+    height: 3.5rem;
+    margin-left: -10rem;
+    font-family: 'gorditaregular';
+    font-size: 15px;
+    color: #888398;
+}
+input[type="submit"]{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 12px;
+    margin-left: -11rem;
+    margin-right: -10rem;
+    background-image: linear-gradient(to right , #E45F83, #f07545, #9D5BFF);
+    font-family: 'gorditaregular';
+    color: #FFFFFF;
+    font-size: 15px;
+}

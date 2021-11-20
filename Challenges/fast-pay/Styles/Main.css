@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'gorditamedium';
+    src: url('../Fonts/gordita_medium-webfont.woff2') format('woff2'),
+         url('../Fonts/gordita_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gorditaregular';
+    src: url('../Fonts/gordita_regular-webfont.woff2') format('woff2'),
+         url('../Fonts/gordita_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main {
+    margin: 2rem 3rem;
+    padding-top: 10rem;
+}
+
+.main .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.main .top .left{
+    margin-left: -3rem;
+}
+.main .top .left img{
+    width: 25rem;
+}
+
+.main .top .right{
+    margin-right: 4rem;
+    margin-top: 5rem;
+}
+.main .top .right h3{
+    font-family: 'gorditaregular';
+    font-size: 35px;
+    color: #000000;
+}
+.main .top .right p{
+    font-family: 'gorditamedium';
+    font-size: 15px;
+    color: #888398;
+}
+.main .top .right a img{
+    width: 2rem;
+}
+.main .top .right .right-bottom{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.main .top .right .right-bottom a{
+    width: 10rem;
+    border: 1px solid #888398;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+}
+.main .top .right .right-bottom a img{
+    width: 3rem;
+}
+.main .top .right .right-bottom a p{
+    margin-left: 4rem;
+    margin-top: -2.5rem;
+}
+
+
+
+
+.main .bottom .left{
+    width: 50%;
+    margin-left: 12rem;
+    margin-top: 10rem;
+}
+.main .bottom .left h3{
+    font-family: 'gorditaregular';
+    font-size: 35px;
+    color: #000000;
+}
+.main .bottom .left p{
+    font-family: 'gorditamedium';
+    font-size: 15px;
+    color: #888398;
+    margin-top: -1rem;
+    margin-bottom: 5rem;
+}
+.main .bottom .left a{
+    font-family: 'gorditamedium';
+    font-size: 16px;
+    color: #888398;
+    width: 10rem;
+    border: 2px solid #E45F83;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+}
+
+.main .bottom .right{
+    width: 50%;
+    margin-left:32.3rem;
+    margin-top: -28rem;
+}
+.main .bottom .right img{
+    width: 25rem;
+}
